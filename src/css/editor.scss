@@ -1,0 +1,13 @@
+.smol-links-input input {
+	cursor: pointer;
+}
+
+.smol-links-copied {
+	display: none;
+	margin-top: 5px;
+	color: #808080;
+
+	&.visible {
+		display: block;
+	}
+}
